@@ -1,0 +1,39 @@
+{
+  "name": "lsnode",
+  "version": "0.0.0",
+  "description": "localstorage wrapper for node.js",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./FileStore": "./lib/FileStore",
+    "./MemoryStore": "./lib/MemoryStore",
+    "./LocalStorage": "./lib/LocalStorage"
+  },
+  "directories": {
+    "lib": "./lib",
+    "test": "./test",
+    "example": "./example"
+  },
+  "scripts": {
+    "publish": "npm publish",
+    "push": "git add . && git commit && git push",
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rednexie/lsnode.git"
+  },
+  "keywords": [
+    "localstorage",
+    "ls",
+    "key-value",
+    "keyvalue",
+    "db"
+  ],
+  "author": "Rednexie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rednexie/lsnode/issues"
+  },
+  "homepage": "https://github.com/Rednexie/lsnode#readme"
+}
